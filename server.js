@@ -2,7 +2,7 @@ require.paths.unshift(__dirname);
 
 var sys = require('sys'),
   http = require('http'),
-  requestModule = require('lib/request'),
+  requestModule = require('lib/Request'),
   frontController = require('lib/FrontController');
   
 
